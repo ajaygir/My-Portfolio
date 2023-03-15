@@ -1,0 +1,138 @@
+*{
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    margin: 0px 20px;
+    background-color: azure;
+    height: 90vh;
+    background-image: url('call.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.Contact{
+    text-align: center;
+    
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 60px;
+  
+    font-size: larger;
+    margin-right: 500px;
+    margin-left: 400px;
+   
+  
+   
+}
+.Contact:hover{
+    transform: scale(1.1);
+}
+
+.input{
+    text-align: center;
+    line-height: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: black;
+    border: solid black;
+    border-left: none;
+    border-right: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: medium;
+    font-weight: bolder;
+    border-top: none;
+    
+
+    
+}
+.input p{
+    font-size: larger;
+   text-align: left;
+   margin-left: 200px;
+}
+
+.sociallinks a{
+    
+    font-size: larger;
+   
+  margin-left: 150px;
+   margin-right: 0px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+   padding-top: 15px;
+ 
+}
+
+
+.sociallinks :hover {
+    transform: scale(1.1);
+}
+
+
+
+button{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.box{
+    margin-right: 120px;
+   line-height: 2.4em;
+   
+  
+}
+
+
+@media all and ( max-width: 576px){
+    .Contact{
+       color: black;
+        margin-left: 150px;
+        background-color: none;
+        
+}
+
+.sociallinks a{
+    font-size: large;
+   display: flex;
+   
+    
+}
+
+.input p{
+    margin-left: 0px;
+   
+}
+
+body{
+    background-size: 1500px;
+    height: 100%;
+}
+
+
+}
+    
+
+
+
+    
+
+
+
+
+  
+

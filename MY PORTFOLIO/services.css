@@ -1,0 +1,121 @@
+*{
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+   
+    
+}
+
+
+.container{
+    display: flex; /* for making layout */
+    padding-bottom: 5px;
+   
+    border-radius: 25px;
+    margin-left: 20px;
+    flex-direction: row; /* for making direction */
+    flex-wrap: wrap; /* for making extra item on next line */
+    justify-content: space-around; /* for aligning item horizontally --- */
+     align-items: center;
+     height: 100vh; /* whole page */
+     background: #b3c1be;
+     background-image: url('service.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+
+.box {
+   
+    height: 60px;
+    width: 80px;
+   
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    
+    
+   
+    
+}
+.box:hover{
+    transform: scale(1.1);
+
+}
+
+.box-1{
+    background-color: rgb(229, 235, 144);
+    /* flex-grow: 1;-for taking space of each container */
+    width: 300px;
+    height: 300px;
+    font-size: large;
+    color: black;
+    box-shadow: 16px 21px 3px -5px rgba(0,0,0,0.75);
+    border-radius: 60px 0px 54px 0px;
+   
+    
+}
+
+
+
+.box-2{
+    background-color: rgb(122, 233, 196);
+    width: 300px;
+    height: 300px;
+    font-size: large;
+    color: black;
+    box-shadow: 16px 21px 3px -5px rgba(0,0,0,0.75);
+    border-radius: 60px 0px 54px 0px;
+
+}
+.box-3{
+    background-color: rgb(235, 169, 239);
+    width: 300px;
+    height: 300px;
+    font-size: large;
+    color: black;
+    box-shadow: 16px 21px 3px -5px rgba(0,0,0,0.75);
+    border-radius: 60px 0px 54px 0px;
+   
+}
+
+h1{
+
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1:hover{
+    transform: scale(1.1);
+}
+
+.p{
+    text-align: center;
+    font-size: large;
+}
+
+
+@media all and ( max-width: 576px){
+    .container{
+        background-color: white;
+        
+       height: 100%;
+       
+    }
+
+   
+    .box-1{
+        margin-bottom: 20px;
+    }
+
+    .box-2{
+        margin-bottom: 20px;
+
+    }
+
+  
+
+}
